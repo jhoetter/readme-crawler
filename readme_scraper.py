@@ -32,7 +32,6 @@ if __name__ == "__main__":
             # provide the url list here :-)
             "https://github.com/streamlit/streamlit",
             "https://github.com/CrowdDevHQ/awesome-community-building",
-            "https://github.com/streamlit/streamlit",
         ]
     )
     readmes_df.to_json("readmes.json", orient="records")
